@@ -19,7 +19,7 @@ This project implements **Sentiment Analysis** using **BERT (Bidirectional Encod
 Ensure you have Python 3.7+ installed. Then, install the required dependencies:
 
 ```bash
-pip install transformers datasets torch scikit-learn
+!pip install transformers
 ```
 
 ## Usage
@@ -28,13 +28,13 @@ pip install transformers datasets torch scikit-learn
 
 1. **Load Pre-trained BERT Model** - Utilize a pre-trained BERT model for sentiment classification.
 2. **Tokenize Input Text** - Convert text into tokenized format for model processing.
-3. **Perform Sentiment Prediction** - Use the model to predict sentiment labels (e.g., Negative, Neutral, Positive).
-4. **Fine-tune on Custom Dataset** - Train the model on a specific dataset for better performance in a particular domain.
-5. **Evaluate Model Accuracy** - Measure the model's performance on a test dataset.
+3. **Perform Sentiment Prediction**— Use the model to predict sentiment labels (e.g., Negative, Neutral, and Positive).
+4. **Fine-tune on Custom Dataset**—Train the model on a Google Play Store review dataset for better performance in a particular domain.
+5. **Evaluate Model Accuracy** - The test accuracy is 73.2%.
 
 ## Dataset
 
-- The project can be used with public datasets like **IMDb, Twitter Sentiment Analysis, or any custom dataset**.
+- The project can be used with a public dataset like **google-play-store-reviews**.
 - The dataset should be preprocessed and tokenized before training or evaluation.
 
 ## Model Training
@@ -44,14 +44,15 @@ pip install transformers datasets torch scikit-learn
 
 ## Deployment
 
-- The trained model can be deployed using **Flask** or **FastAPI** to create a REST API.
-- The API can serve real-time sentiment predictions for text input.
+- I can deploy this model in the future if needed.
 
 ## Contributing
 
 Contributions are welcome! Feel free to open issues and submit pull requests to enhance the project.
 
-## License
 
-This project is licensed under the MIT License.
+### Author: Manav Singh Jadaun
+
+**GitHub:** [ManavSIngh99](https://github.com/ManavSIngh99)
+
 
